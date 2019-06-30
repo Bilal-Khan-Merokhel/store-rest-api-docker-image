@@ -32,8 +32,10 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
 - ``` Method POST /api/v1/user/login```
   ```
   {
+
     "username" : "bilalkhan",
     "password" : "1234"
+
   }
   ```
 - ``` Method GET /api/v1/user/{user_id}```
@@ -48,14 +50,16 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
 - ``` Method POST /api/v2/item/{item_name}```
   ```
   {
-     "price":12.00,
-     "store_id":1       
+
+    "price": 12.99,
+    "store_id": 1
+
   }
   ```
 - ``` Method PUT /api/v2/item/{item_name}```
   ```
   {
-     "price":12.00       
+    "price": 20.99
   }
   ```
 
