@@ -20,6 +20,7 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
 ## Endpoints
 ### Auth Endpoints
 - ```Method POST /api/v1/user/register```
+
   ```
   {
      "username":test_username,
@@ -30,6 +31,7 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
 - ``` Method GET /api/v1/user/confirmation/{confirmation_token}/confirmed```
 - ``` Method GET /api/v1/confirmation/user/{user_id}```
 - ``` Method POST /api/v1/user/login```
+
   ```
   {
 
@@ -48,6 +50,7 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
 
 ### Posting/Updating and fetching items
 - ``` Method POST /api/v2/item/{item_name}```
+
   ```
   {
 
@@ -57,6 +60,7 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
   }
   ```
 - ``` Method PUT /api/v2/item/{item_name}```
+
   ```
   {
     "price": 20.99
