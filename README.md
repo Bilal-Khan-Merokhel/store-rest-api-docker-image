@@ -1,7 +1,11 @@
 
 
-# Flask Store Rest Api
-Store REST API
+# Flask Rest Api
+Store REST API which contains CRUD and Auth mechanism with confirmation tokens.
+once you register go to this endpoint ``` Method GET /api/v1/confirmation/user/{user_id}``` and get your confirmation token after that
+go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token}/confirmed```
+ and replace your confirmation token so you can confirm your account.
+
 
 ## Installation
 - Fetch from docker hub via ```docker pull bilalkhan/store_rest_api:latest```.
