@@ -5,7 +5,7 @@ Store REST API
 
 ## Installation
 - Fetch from docker hub via ```docker pull bilalkhan/store_rest_api:latest```.
-- RUN ```docker run -d -p 5000:5000 bilalkhan/store_rest_api:latest```.
+- RUN ```docker run -d -p 80:5000 bilalkhan/store_rest_api:latest```.
 - Go to ```127.0.0.1``` and you'll see 404 not found.
 
 ## Description
