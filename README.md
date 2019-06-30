@@ -1,6 +1,6 @@
 
 
-# Flask-Store_Rest_Api
+# Flask Store Rest Api
 Store REST API
 
 ## Installation
