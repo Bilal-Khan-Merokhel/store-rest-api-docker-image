@@ -32,9 +32,8 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
 - ``` Method POST /api/v1/user/login```
   ```
   {
-     "username":test_username,
-     "email": "this.rex@protonmail.com",
-     "password":1234       
+    "username" : "bilalkhan",
+    "password" : "1234"
   }
   ```
 - ``` Method GET /api/v1/user/{user_id}```
