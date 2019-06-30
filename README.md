@@ -10,7 +10,7 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
 ## Installation
 - Fetch from docker hub via ```docker pull bilalkhan/store_rest_api:latest```.
 - RUN ```docker run -d -p 80:5000 bilalkhan/store_rest_api:latest```.
-- Go to ```127.0.0.1``` and you'll see 404 not found.
+- Go to ```127.0.0.1``` and you'll see **404**  not found.
 
 ## Description
   You can use postman or curl to fetch these endpoints.
