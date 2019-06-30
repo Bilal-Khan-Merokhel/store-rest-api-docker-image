@@ -20,18 +20,44 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
 ## Endpoints
 ### Auth Endpoints
 - ```Method POST /api/v1/user/register```
+  ```
+  {
+     "username":test_username,
+     "email": "this.rex@protonmail.com",
+     "password":1234       
+  }
+  ```
 - ``` Method GET /api/v1/user/confirmation/{confirmation_token}/confirmed```
 - ``` Method GET /api/v1/confirmation/user/{user_id}```
 - ``` Method POST /api/v1/user/login```
+  ```
+  {
+     "username":test_username,
+     "email": "this.rex@protonmail.com",
+     "password":1234       
+  }
+  ```
 - ``` Method GET /api/v1/user/{user_id}```
-- ```Method POST /api/v1/user/token/refresh```
+- ``` Method POST /api/v1/user/token/refresh```
 - ``` Method POST /api/v1/user/logout```
 
 ### Posting and fetching store names with items in it
 - ``` Method POST /api/v2/store/{store_name}```
 - ``` Method GET /api/v2/stores```
 
-### Posting and fetching items
+### Posting/Updating and fetching items
 - ``` Method POST /api/v2/item/{item_name}```
-- ```Method GET /api/v2/items```
+  ```
+  {
+     "price":12.00,
+     "store_id":1       
+  }
+  ```
+- ``` Method PUT /api/v2/item/{item_name}```
+  ```
+  {
+     "price":12.00       
+  }
+  ```
 
+- ```Method GET /api/v2/items```
