@@ -1,10 +1,9 @@
 
+
 # Flask-Store_Rest_Api
 Store REST API
 
 ## Installation
-- Clone the repo ```git clone https://github.com/Bilal-Khan-Merokhel/store-rest-api-docker-image.git```.
-- Change dir to  ```cd /store-rest-api-docker-image```.
 - Fetch from docker hub via ```docker pull bilalkhan/store_rest_api:latest```.
 - RUN ```docker run -d -p 5000:5000 bilalkhan/store_rest_api:latest```.
 - Go to ```127.0.0.1``` and you'll see 404 not found.
