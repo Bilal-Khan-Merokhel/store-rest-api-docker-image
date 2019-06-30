@@ -41,14 +41,16 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
   }
   ```
 - ``` Method GET /api/v1/user/{user_id}```
+- ``` Method DELETE /api/v1/user/{user_id}```
 - ``` Method POST /api/v1/user/token/refresh```
 - ``` Method POST /api/v1/user/logout```
 
 ### Posting and fetching store names with items in it
 - ``` Method POST /api/v2/store/{store_name}```
+- ``` Method DELETE /api/v2/store/{store_name}```
 - ``` Method GET /api/v2/stores```
 
-### Posting/Updating and fetching items
+### Posting/Updating/Deleting and fetching items
 - ``` Method POST /api/v2/item/{item_name}```
 
   ```
@@ -58,7 +60,7 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
     "store_id": 1
 
   }
-  ```
+  
 - ``` Method PUT /api/v2/item/{item_name}```
 
   ```
@@ -66,5 +68,6 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
     "price": 20.99
   }
   ```
-
+  
+- ``` Method DELETE /api/v2/item/{item_name}```
 - ```Method GET /api/v2/items```
