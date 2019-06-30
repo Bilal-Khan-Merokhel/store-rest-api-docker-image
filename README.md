@@ -56,6 +56,7 @@ go to this endpoint ``` Method GET /api/v1/user/confirmation/{confirmation_token
     "price": 12.99,
     "store_id": 1
   }
+  ```
   
 - ``` Method PUT /api/v2/item/{item_name}```
 
